@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common LiquidRemix stuff.
-$(call inherit-product, vendor/aquarios/configs/aquarios_phone.mk)
+$(call inherit-product, vendor/aquarios/config/common_full_phone.mk)
 
 PRODUCT_NAME := aquarios_enchilada
 PRODUCT_DEVICE := enchilada
